@@ -34,7 +34,7 @@ The system allows users to add cars, view all cars, view one car by ID, update c
 ---
 
 ## Project Structure
-
+```bash
 assignment3-mongo/
 server.js
 .env
@@ -42,6 +42,7 @@ public/
 index.html
 app.js
 README.md
+```
 
 
 ---
