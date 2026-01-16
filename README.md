@@ -7,15 +7,13 @@
 ---
 
 ## Introduction
-
-This project is made for **WT2 Assignment 3**.  
-The goal is to replace the old JSON storage with **MongoDB** and build a full **CRUD REST API** for a real project topic.  
+ 
 I selected the topic **Auto Dealership**, where the main object is **Car**.  
 The system allows users to add cars, view all cars, view one car by ID, update car data, and delete cars.
 
 **Main technologies:**
 - Node.js + Express
-- MongoDB (Local) + MongoDB Compass
+- MongoDB 
 - Postman (manual testing)
 - Simple HTML/JS interface
 
