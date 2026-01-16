@@ -1,6 +1,6 @@
 
-> **Student:** Nurlan Ramazan
-> **Group:** SE-2431 
+ **Student:** Nurlan Ramazan
+ **Group:** SE-2431 
 
 ---
 
@@ -21,15 +21,15 @@ The system allows users to add cars, view all cars, view one car by ID, update c
 
 ## Project Requirements Checklist
 
-✅ MongoDB used instead of JSON file storage  
-✅ Primary object is related to the final project topic (**cars**)  
-✅ Required fields: **brand, model, year, price**  
-✅ Timestamps: **createdAt, updatedAt**  
-✅ CRUD API endpoints implemented (POST/GET/GET:id/PUT/DELETE)  
-✅ Validation for POST and PUT  
-✅ Correct status codes (201, 400, 404, 500)  
-✅ Manual testing in Postman  
-✅ Simple user interface for viewing and creating cars  
+ MongoDB used instead of JSON file storage  
+ Primary object is related to the final project topic (**cars**)  
+ Required fields: **brand, model, year, price**  
+ Timestamps: **createdAt, updatedAt**  
+ CRUD API endpoints implemented (POST/GET/GET:id/PUT/DELETE)  
+ Validation for POST and PUT  
+ Correct status codes (201, 400, 404, 500)  
+ Manual testing in Postman  
+ Simple user interface for viewing and creating cars  
 
 ---
 
