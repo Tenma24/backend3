@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto Dealership - Cars</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 950px; margin: 20px auto; padding: 0 12px; }
+    h1 { margin-bottom: 6px; }
+    .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    input { padding: 10px; min-width: 200px; }
+    button { padding: 10px 14px; cursor: pointer; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 12px; margin: 10px 0; }
+    .small { color: #555; font-size: 12px; }
+    .error { color: #b00020; }
+    .ok { color: #0a7a2f; }
+  </style>
+</head>
+<body>
+  <h1>Auto Dealership (MongoDB CRUD)</h1>
+  <p class="small">Page features: view all cars + add new car.</p>
+
+  <h2>Add car</h2>
+  <div class="row">
+    <input id="brand" placeholder="brand (required)" />
+    <input id="model" placeholder="model (required)" />
+    <input id="year" placeholder="year (number, required)" />
+    <input id="price" placeholder="price (number, required)" />
+    <input id="mileage" placeholder="mileage (number, optional)" />
+    <input id="color" placeholder="color (optional)" />
+    <input id="transmission" placeholder="transmission (AT/MT, optional)" />
+    <input id="fuel" placeholder="fuel (optional)" />
+    <input id="description" placeholder="description (optional)" />
+    <button id="addBtn">Add</button>
+  </div>
+
+  <p id="msg" class="error"></p>
+
+  <h2>All cars</h2>
+  <button id="loadBtn">Load cars</button>
+  <div id="list"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
